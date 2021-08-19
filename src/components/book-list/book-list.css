@@ -1,0 +1,13 @@
+.book-list{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+.book-list-not-found{
+    display: block;
+    font-size: 1.2rem;
+    text-align: center;
+}

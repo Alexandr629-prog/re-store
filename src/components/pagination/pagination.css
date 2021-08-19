@@ -1,0 +1,19 @@
+.pages {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.page, .current-page{
+    width: 45px;
+    height: 40px;
+    border-radius: 100%;
+    border: 1px solid black;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.current-page{
+    border: 2px solid black;
+}
